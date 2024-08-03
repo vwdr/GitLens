@@ -1,0 +1,18 @@
+.code-snippet {
+	color: #333;
+	padding: 0.5rem;
+	border-radius: 5px;
+	margin: 1em 0;
+	overflow-x: hidden;
+	white-space: nowrap;
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+	font-family: "Courier New", monospace;
+	background-color: #f5f5f5;
+}
+
+.code-snippet > p {
+	margin-bottom: 0.5rem;
+}
+.code-snippet > span {
+	max-width: 100%;
+}

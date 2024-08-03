@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Website</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<div class="center">
+
+		<div class="grid-container">
+
+			<div class="heading-subheading">
+				<h1>Evaluate a new applicant</h1>
+				<p>
+					By copying a GitHub link, Git Good extracts the desired qualities of candidates to analyze qualifications for a position application.
+				</p>
+			</div>
+
+			<div class="inner-container">
+
+				<div class="inner-container-questions"> <!-- this is not doing spacing right -->
+					<div class="question-heading"> 
+						<h2>GitHub Profile Link</h2>
+						<input type="text" placeholder="Paste Profile Link here" readonly>
+					</div>
+					<div class="question-heading"> 
+						<h2>Desired Evaluation Criteria</h2>
+						<div class="flex-container">
+							<button class="multi-select-unfilled">Code Quality</button>
+							<button class="multi-select-filled">Number of Commits</button>
+							<button class="multi-select-unfilled">This is a longer one</button>
+							<button class="multi-select-unfilled">Oh no make this super duper duper long</button>
+						</div>
+					</div>
+				</div>
+
+				<button class="submit">Analyze Profile</button>
+			</div>
+		</div>
+	</div>
+</html>
